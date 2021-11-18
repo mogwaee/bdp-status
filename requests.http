@@ -1,0 +1,9 @@
+GET http://localhost:3000/notify?jobId=e250d073-7215-4dcd-8422-081e3d6fd1b6
+Accept: application/json
+
+###
+GET https://192.168.63.128:9090/bdocapi/v1/jobs/e250d073-7215-4dcd-8422-081e3d6fd1b6
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkxIjpbInZhbHVlMSIsInZhbHVlMiJdLCJrZXkyIjoidmFsdWUzIiwianRpIjoiNTA0MDk5MzktNTUzOC00NjM1LWJhMDAtNGMyYTBjZGIzNGU3IiwiaWF0IjoxNjMxNjU3NTI4LCJuYmYiOjE1Nzc4NzY0MDAsImV4cCI6MTY0MTAzNDgwMCwiaXNzIjoiSXNzdWVyIiwiYXVkIjoiQkRPQyJ9.UFHoOxm546xF5Tr2y328-P59_u67Qeu2GAmg6njb-NY
+Accept: application/json
+
+###
