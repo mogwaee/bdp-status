@@ -1,9 +1,9 @@
-import express from 'express';
-import * as statusRequest from './statusRequest.js';
+const express = require("express");
+const statusRequest = require("./statusRequest.js");
 
 const nowTime = () => {
     let d = new Date(Date.now());
-    return (`${d.toLocaleDateString()} ${d.toLocaleTimeString()}`);
+    return `${d.toLocaleDateString()} ${d.toLocaleTimeString()}`;
 };
 const app = express();
 app.listen(3000, () => {
@@ -12,14 +12,11 @@ app.listen(3000, () => {
 });
 
 // Notify route
-app.get('/notify', (req, res) => {
+app.get("/notify", (req, res) => {
     //res.send('Notify Me!');
-    res.status(200).json({jobId: req.query.jobId});
+    res.status(200).json({ jobId: req.query.jobId });
 
     statusRequest.jobStatus(req.query.jobId).then(() => {
         console.log(nowTime() + " Notification finished.");
     });
 });
-
-
-
