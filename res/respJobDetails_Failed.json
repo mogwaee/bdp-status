@@ -1,0 +1,20 @@
+{
+    "job": {
+        "id": "a0ae6bdd-ab7c-498b-80c8-173702d732bf",
+        "name": "THELEM_SPC_v5",
+        "description": "THELEM_SPC_LETTRE_RELANCE_CLIENT20191031_000001.XMLSPC",
+        "docFlowName": "THELEM_SPC_v5",
+        "status": "Failed",
+        "correlationId": "THELEM_SPC_17-11-2021",
+        "startedDate": "2021-11-17T15:53:16.329Z",
+        "endedDate": "2021-11-18T10:15:49.528Z",
+        "elapsedTime": "18:22:33.1999548",
+        "failedReason": "Job timed out",
+        "jobTags": ["Batch"],
+        "jobSpoolPath": "C:\\bdoc\\Production\\Spool\\17-11-2021\\a0ae6bdd-ab7c-498b-80c8-173702d732bf",
+        "metaData": []
+    },
+    "documents": [],
+    "communications": [],
+    "globalDocuments": []
+}

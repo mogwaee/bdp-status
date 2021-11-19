@@ -1,0 +1,354 @@
+{
+    "job": {
+        "id": "71cd7239-c089-4dbf-819e-2033d976a0dc",
+        "name": "THELEM_IF_v3",
+        "description": "THELEM_IF_LETTRE_RELANCE_CLIENT20191031.XMLIF",
+        "docFlowName": "THELEM_IF_v3",
+        "status": "Completed",
+        "correlationId": "THELEM_IF_19-11-2021",
+        "startedDate": "2021-11-19T12:16:22.733Z",
+        "endedDate": "2021-11-19T12:16:23.724Z",
+        "elapsedTime": "00:00:00.9912242",
+        "failedReason": "",
+        "jobTags": ["Batch"],
+        "jobSpoolPath": "C:\\bdoc\\Production\\Spool\\19-11-2021\\71cd7239-c089-4dbf-819e-2033d976a0dc",
+        "metaData": [
+            {
+                "id": "notifyResponse",
+                "values": ["{\"jobId\":\"71cd7239-c089-4dbf-819e-2033d976a0dc\",\"jobBranch\":\"IF\"}"]
+            }
+        ]
+    },
+    "documents": [
+        {
+            "id": "7b6967f3-c52e-47fd-af49-1c4ea619f9f7_1",
+            "creationDate": "2021-11-19T12:16:22.8272646Z",
+            "expirationDate": "2021-11-21T12:16:22.8272646Z",
+            "storageFilePath": "",
+            "creator": "",
+            "description": "",
+            "format": "Pdf",
+            "totalNumberOfPages": 2,
+            "correlationId": "THELEM_IF_19-11-2021",
+            "jobId": "71cd7239-c089-4dbf-819e-2033d976a0dc",
+            "intermediateFormatOnly": false,
+            "metaData": [],
+            "engineIndexContentAsJson": null,
+            "documentPageList": [
+                {
+                    "pageIndex": 0,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                },
+                {
+                    "pageIndex": 1,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                }
+            ],
+            "totalNumberOfSheets": 2,
+            "sourceType": "Assembled",
+            "templateName": "RELANCE_CLIENT_2019",
+            "templateVersion": "",
+            "documentBatchIndex": 1,
+            "chunkId": "7b6967f3-c52e-47fd-af49-1c4ea619f9f7",
+            "resourceFormatSizeInBytesMap": {},
+            "mainFormatSizeInBytes": 0
+        },
+        {
+            "id": "7b6967f3-c52e-47fd-af49-1c4ea619f9f7_2",
+            "creationDate": "2021-11-19T12:16:22.8272646Z",
+            "expirationDate": "2021-11-21T12:16:22.8272646Z",
+            "storageFilePath": "",
+            "creator": "",
+            "description": "",
+            "format": "Pdf",
+            "totalNumberOfPages": 2,
+            "correlationId": "THELEM_IF_19-11-2021",
+            "jobId": "71cd7239-c089-4dbf-819e-2033d976a0dc",
+            "intermediateFormatOnly": false,
+            "metaData": [],
+            "engineIndexContentAsJson": null,
+            "documentPageList": [
+                {
+                    "pageIndex": 0,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                },
+                {
+                    "pageIndex": 1,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                }
+            ],
+            "totalNumberOfSheets": 2,
+            "sourceType": "Assembled",
+            "templateName": "RELANCE_CLIENT_2019",
+            "templateVersion": "",
+            "documentBatchIndex": 2,
+            "chunkId": "7b6967f3-c52e-47fd-af49-1c4ea619f9f7",
+            "resourceFormatSizeInBytesMap": {},
+            "mainFormatSizeInBytes": 0
+        },
+        {
+            "id": "7b6967f3-c52e-47fd-af49-1c4ea619f9f7_3",
+            "creationDate": "2021-11-19T12:16:22.8272646Z",
+            "expirationDate": "2021-11-21T12:16:22.8272646Z",
+            "storageFilePath": "",
+            "creator": "",
+            "description": "",
+            "format": "Pdf",
+            "totalNumberOfPages": 2,
+            "correlationId": "THELEM_IF_19-11-2021",
+            "jobId": "71cd7239-c089-4dbf-819e-2033d976a0dc",
+            "intermediateFormatOnly": false,
+            "metaData": [],
+            "engineIndexContentAsJson": null,
+            "documentPageList": [
+                {
+                    "pageIndex": 0,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                },
+                {
+                    "pageIndex": 1,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                }
+            ],
+            "totalNumberOfSheets": 2,
+            "sourceType": "Assembled",
+            "templateName": "RELANCE_CLIENT_2019",
+            "templateVersion": "",
+            "documentBatchIndex": 3,
+            "chunkId": "7b6967f3-c52e-47fd-af49-1c4ea619f9f7",
+            "resourceFormatSizeInBytesMap": {},
+            "mainFormatSizeInBytes": 0
+        },
+        {
+            "id": "7b6967f3-c52e-47fd-af49-1c4ea619f9f7_4",
+            "creationDate": "2021-11-19T12:16:22.8272646Z",
+            "expirationDate": "2021-11-21T12:16:22.8272646Z",
+            "storageFilePath": "",
+            "creator": "",
+            "description": "",
+            "format": "Pdf",
+            "totalNumberOfPages": 2,
+            "correlationId": "THELEM_IF_19-11-2021",
+            "jobId": "71cd7239-c089-4dbf-819e-2033d976a0dc",
+            "intermediateFormatOnly": false,
+            "metaData": [],
+            "engineIndexContentAsJson": null,
+            "documentPageList": [
+                {
+                    "pageIndex": 0,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                },
+                {
+                    "pageIndex": 1,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                }
+            ],
+            "totalNumberOfSheets": 2,
+            "sourceType": "Assembled",
+            "templateName": "RELANCE_CLIENT_2019",
+            "templateVersion": "",
+            "documentBatchIndex": 4,
+            "chunkId": "7b6967f3-c52e-47fd-af49-1c4ea619f9f7",
+            "resourceFormatSizeInBytesMap": {},
+            "mainFormatSizeInBytes": 0
+        },
+        {
+            "id": "7b6967f3-c52e-47fd-af49-1c4ea619f9f7_5",
+            "creationDate": "2021-11-19T12:16:22.8272646Z",
+            "expirationDate": "2021-11-21T12:16:22.8272646Z",
+            "storageFilePath": "",
+            "creator": "",
+            "description": "",
+            "format": "Pdf",
+            "totalNumberOfPages": 1,
+            "correlationId": "THELEM_IF_19-11-2021",
+            "jobId": "71cd7239-c089-4dbf-819e-2033d976a0dc",
+            "intermediateFormatOnly": false,
+            "metaData": [],
+            "engineIndexContentAsJson": null,
+            "documentPageList": [
+                {
+                    "pageIndex": 0,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                }
+            ],
+            "totalNumberOfSheets": 1,
+            "sourceType": "Assembled",
+            "templateName": "RELANCE_CLIENT_2019",
+            "templateVersion": "",
+            "documentBatchIndex": 5,
+            "chunkId": "7b6967f3-c52e-47fd-af49-1c4ea619f9f7",
+            "resourceFormatSizeInBytesMap": {},
+            "mainFormatSizeInBytes": 0
+        },
+        {
+            "id": "7b6967f3-c52e-47fd-af49-1c4ea619f9f7_6",
+            "creationDate": "2021-11-19T12:16:22.8272646Z",
+            "expirationDate": "2021-11-21T12:16:22.8272646Z",
+            "storageFilePath": "",
+            "creator": "",
+            "description": "",
+            "format": "Pdf",
+            "totalNumberOfPages": 2,
+            "correlationId": "THELEM_IF_19-11-2021",
+            "jobId": "71cd7239-c089-4dbf-819e-2033d976a0dc",
+            "intermediateFormatOnly": false,
+            "metaData": [],
+            "engineIndexContentAsJson": null,
+            "documentPageList": [
+                {
+                    "pageIndex": 0,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                },
+                {
+                    "pageIndex": 1,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                }
+            ],
+            "totalNumberOfSheets": 2,
+            "sourceType": "Assembled",
+            "templateName": "RELANCE_CLIENT_2019",
+            "templateVersion": "",
+            "documentBatchIndex": 6,
+            "chunkId": "7b6967f3-c52e-47fd-af49-1c4ea619f9f7",
+            "resourceFormatSizeInBytesMap": {},
+            "mainFormatSizeInBytes": 0
+        },
+        {
+            "id": "7b6967f3-c52e-47fd-af49-1c4ea619f9f7_7",
+            "creationDate": "2021-11-19T12:16:22.8272646Z",
+            "expirationDate": "2021-11-21T12:16:22.8272646Z",
+            "storageFilePath": "",
+            "creator": "",
+            "description": "",
+            "format": "Pdf",
+            "totalNumberOfPages": 2,
+            "correlationId": "THELEM_IF_19-11-2021",
+            "jobId": "71cd7239-c089-4dbf-819e-2033d976a0dc",
+            "intermediateFormatOnly": false,
+            "metaData": [],
+            "engineIndexContentAsJson": null,
+            "documentPageList": [
+                {
+                    "pageIndex": 0,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                },
+                {
+                    "pageIndex": 1,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                }
+            ],
+            "totalNumberOfSheets": 2,
+            "sourceType": "Assembled",
+            "templateName": "RELANCE_CLIENT_2019",
+            "templateVersion": "",
+            "documentBatchIndex": 7,
+            "chunkId": "7b6967f3-c52e-47fd-af49-1c4ea619f9f7",
+            "resourceFormatSizeInBytesMap": {},
+            "mainFormatSizeInBytes": 0
+        },
+        {
+            "id": "7b6967f3-c52e-47fd-af49-1c4ea619f9f7_8",
+            "creationDate": "2021-11-19T12:16:22.8272646Z",
+            "expirationDate": "2021-11-21T12:16:22.8272646Z",
+            "storageFilePath": "",
+            "creator": "",
+            "description": "",
+            "format": "Pdf",
+            "totalNumberOfPages": 2,
+            "correlationId": "THELEM_IF_19-11-2021",
+            "jobId": "71cd7239-c089-4dbf-819e-2033d976a0dc",
+            "intermediateFormatOnly": false,
+            "metaData": [],
+            "engineIndexContentAsJson": null,
+            "documentPageList": [
+                {
+                    "pageIndex": 0,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                },
+                {
+                    "pageIndex": 1,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                }
+            ],
+            "totalNumberOfSheets": 2,
+            "sourceType": "Assembled",
+            "templateName": "RELANCE_CLIENT_2019",
+            "templateVersion": "",
+            "documentBatchIndex": 8,
+            "chunkId": "7b6967f3-c52e-47fd-af49-1c4ea619f9f7",
+            "resourceFormatSizeInBytesMap": {},
+            "mainFormatSizeInBytes": 0
+        }
+    ],
+    "communications": [],
+    "globalDocuments": [
+        {
+            "id": "3b7fac41-6762-4174-be19-b120e51c5962",
+            "creationDate": "2021-11-19T12:16:23.5816052Z",
+            "expirationDate": "2021-11-21T12:16:23.5816052Z",
+            "creator": "",
+            "documentCount": 8,
+            "communicationCount": 0,
+            "description": "",
+            "correlationId": "THELEM_IF_19-11-2021",
+            "jobId": "71cd7239-c089-4dbf-819e-2033d976a0dc",
+            "format": "Pdf",
+            "filePath": "",
+            "name": "",
+            "totalNumberOfPages": 15,
+            "totalNumberOfSheets": 15,
+            "resourceType": "Document",
+            "metaData": [],
+            "resourceFormatSizeInBytesMap": {
+                "Pdf": 70982
+            },
+            "mainFormatSizeInBytes": 70982
+        }
+    ]
+}

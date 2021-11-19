@@ -1,0 +1,670 @@
+{
+    "job": {
+        "id": "9a77465c-f206-491d-9346-11f3b9257a67",
+        "name": "THELEM_SPC_v6",
+        "description": "THELEM_SPC_LETTRE_RELANCE_CLIENT20191031_000001.XMLSPC",
+        "docFlowName": "THELEM_SPC_v6",
+        "status": "Completed",
+        "correlationId": "THELEM_SPC_19-11-2021",
+        "startedDate": "2021-11-19T12:17:10.602Z",
+        "endedDate": "2021-11-19T12:17:11.54Z",
+        "elapsedTime": "00:00:00.9381311",
+        "failedReason": "",
+        "jobTags": ["Batch"],
+        "jobSpoolPath": "C:\\bdoc\\Production\\Spool\\19-11-2021\\9a77465c-f206-491d-9346-11f3b9257a67",
+        "metaData": [
+            {
+                "id": "notifyResponse",
+                "values": ["{\"jobId\":\"9a77465c-f206-491d-9346-11f3b9257a67\",\"jobBranch\":\"SPC\"}"]
+            }
+        ]
+    },
+    "documents": [
+        {
+            "id": "20369029-2e5b-4930-be9a-7d7efc46af5d_1",
+            "creationDate": "2021-11-19T12:17:10.6823842Z",
+            "expirationDate": "2021-11-21T12:17:10.6823842Z",
+            "storageFilePath": "",
+            "creator": "",
+            "description": "",
+            "format": "Pdf",
+            "totalNumberOfPages": 2,
+            "correlationId": "THELEM_SPC_19-11-2021",
+            "jobId": "9a77465c-f206-491d-9346-11f3b9257a67",
+            "intermediateFormatOnly": false,
+            "metaData": [
+                {
+                    "id": "FICHIER_CREE",
+                    "values": ["LETTRE_RELANCE_CLIENT20191031_000001.XMLSPC_20369029-2e5b-4930-be9a-7d7efc46af5d_1.pdf"]
+                }
+            ],
+            "engineIndexContentAsJson": {
+                "Root": {
+                    "INDEXATION": {
+                        "BASE_GED": "GESTION",
+                        "TYPE_STOCKAGE": "WORM",
+                        "GROUPE_DOCUMENT": "",
+                        "TYPE_RETENTION": "DECENALE",
+                        "TYPE_DOCUMENT": "LETTRE_RELANCE_CLIENT_",
+                        "FAMILLE_DOCUMENT": "QUOTIDIENNE",
+                        "DATE_CREATION": "2019-10-31",
+                        "NOM_FICHIER": "",
+                        "SI_APPELANT": "AIA",
+                        "ID_SYSTEME_APPELANT": "4E6C38515E",
+                        "USER_SYSTEME_APPELANT": "BATCH01",
+                        "DATE_REFERENCE": "2099-01-01",
+                        "DATE_DOCUMENT": "2019-07-16",
+                        "SENS": "SORTANT",
+                        "CANAL": "RIO",
+                        "NUM_PERSONNE_CRM": "",
+                        "NUM_PERSONNE_RIO": "T12119620",
+                        "NOM_RAISON": "ROSE",
+                        "PRENOM_PERSONNE": "Jean",
+                        "DATE_NAISSANCE_PERSONNE": "15/07/1970",
+                        "TYPE_PERSONNE": "PHYSIQUE",
+                        "FORME_JURIDIQUE": "",
+                        "SOCIETE": "THELEM ASSURANCES",
+                        "PARTENAIRE": "21542:Agent A1(A1): M. Eric HUBERT",
+                        "NUM_CONTRAT": "",
+                        "NUM_SINISTRE": "",
+                        "NUM_DEVIS": "",
+                        "NUM_APPORTEUR": "21542",
+                        "NOM_APPORTEUR": "HUBERT",
+                        "NUM_PRISE_GARANTIES": "",
+                        "RUM": "",
+                        "NUM_AVENANT": "",
+                        "DOMAINE": "PRODUCTION",
+                        "NUM_ENCAISSEMENT": "",
+                        "NUM_DECAISSEMENT": "",
+                        "NUM_PRIME": "",
+                        "DESTINATAIRE": "M. Jean ROSE",
+                        "EMETTEUR": "Batch01 BATCH01",
+                        "GESTIONNAIRE": "",
+                        "GARANTIE_SINISTREE": "",
+                        "DEMAT": "",
+                        "ID_GARANTIE_SINISTREE": ""
+                    }
+                }
+            },
+            "documentPageList": [
+                {
+                    "pageIndex": 0,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                },
+                {
+                    "pageIndex": 1,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                }
+            ],
+            "totalNumberOfSheets": 2,
+            "sourceType": "Assembled",
+            "templateName": "RELANCE_CLIENT_2019",
+            "templateVersion": "",
+            "documentBatchIndex": 1,
+            "chunkId": "20369029-2e5b-4930-be9a-7d7efc46af5d",
+            "resourceFormatSizeInBytesMap": {
+                "Pdf": 13495
+            },
+            "mainFormatSizeInBytes": 13495
+        },
+        {
+            "id": "20369029-2e5b-4930-be9a-7d7efc46af5d_2",
+            "creationDate": "2021-11-19T12:17:10.6823842Z",
+            "expirationDate": "2021-11-21T12:17:10.6823842Z",
+            "storageFilePath": "",
+            "creator": "",
+            "description": "",
+            "format": "Pdf",
+            "totalNumberOfPages": 2,
+            "correlationId": "THELEM_SPC_19-11-2021",
+            "jobId": "9a77465c-f206-491d-9346-11f3b9257a67",
+            "intermediateFormatOnly": false,
+            "metaData": [
+                {
+                    "id": "FICHIER_CREE",
+                    "values": ["LETTRE_RELANCE_CLIENT20191031_000001.XMLSPC_20369029-2e5b-4930-be9a-7d7efc46af5d_2.pdf"]
+                }
+            ],
+            "engineIndexContentAsJson": {
+                "Root": {
+                    "INDEXATION": {
+                        "BASE_GED": "GESTION",
+                        "TYPE_STOCKAGE": "WORM",
+                        "GROUPE_DOCUMENT": "",
+                        "TYPE_RETENTION": "DECENALE",
+                        "TYPE_DOCUMENT": "LETTRE_RELANCE_CLIENT_",
+                        "FAMILLE_DOCUMENT": "QUOTIDIENNE",
+                        "DATE_CREATION": "2019-10-31",
+                        "NOM_FICHIER": "",
+                        "SI_APPELANT": "AIA",
+                        "ID_SYSTEME_APPELANT": "4E6C385154",
+                        "USER_SYSTEME_APPELANT": "BATCH01",
+                        "DATE_REFERENCE": "2099-01-01",
+                        "DATE_DOCUMENT": "2019-07-16",
+                        "SENS": "SORTANT",
+                        "CANAL": "RIO",
+                        "NUM_PERSONNE_CRM": "",
+                        "NUM_PERSONNE_RIO": "T12119628",
+                        "NOM_RAISON": "ATHEME",
+                        "PRENOM_PERSONNE": "Maryse",
+                        "DATE_NAISSANCE_PERSONNE": "01/01/1970",
+                        "TYPE_PERSONNE": "PHYSIQUE",
+                        "FORME_JURIDIQUE": "",
+                        "SOCIETE": "THELEM ASSURANCES",
+                        "PARTENAIRE": "21732:Agent A1(A1):  MR LAFAY JEAN FRANCOIS",
+                        "NUM_CONTRAT": "",
+                        "NUM_SINISTRE": "",
+                        "NUM_DEVIS": "",
+                        "NUM_APPORTEUR": "21732",
+                        "NOM_APPORTEUR": "MR LAFAY JEAN FRANCOIS",
+                        "NUM_PRISE_GARANTIES": "",
+                        "RUM": "",
+                        "NUM_AVENANT": "",
+                        "DOMAINE": "PRODUCTION",
+                        "NUM_ENCAISSEMENT": "",
+                        "NUM_DECAISSEMENT": "",
+                        "NUM_PRIME": "",
+                        "DESTINATAIRE": "Mme Maryse ATHEME",
+                        "EMETTEUR": "Batch01 BATCH01",
+                        "GESTIONNAIRE": "",
+                        "GARANTIE_SINISTREE": "",
+                        "DEMAT": "",
+                        "ID_GARANTIE_SINISTREE": ""
+                    }
+                }
+            },
+            "documentPageList": [
+                {
+                    "pageIndex": 0,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                },
+                {
+                    "pageIndex": 1,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                }
+            ],
+            "totalNumberOfSheets": 2,
+            "sourceType": "Assembled",
+            "templateName": "RELANCE_CLIENT_2019",
+            "templateVersion": "",
+            "documentBatchIndex": 2,
+            "chunkId": "20369029-2e5b-4930-be9a-7d7efc46af5d",
+            "resourceFormatSizeInBytesMap": {
+                "Pdf": 13386
+            },
+            "mainFormatSizeInBytes": 13386
+        },
+        {
+            "id": "20369029-2e5b-4930-be9a-7d7efc46af5d_3",
+            "creationDate": "2021-11-19T12:17:10.6823842Z",
+            "expirationDate": "2021-11-21T12:17:10.6823842Z",
+            "storageFilePath": "",
+            "creator": "",
+            "description": "",
+            "format": "Pdf",
+            "totalNumberOfPages": 2,
+            "correlationId": "THELEM_SPC_19-11-2021",
+            "jobId": "9a77465c-f206-491d-9346-11f3b9257a67",
+            "intermediateFormatOnly": false,
+            "metaData": [
+                {
+                    "id": "FICHIER_CREE",
+                    "values": ["LETTRE_RELANCE_CLIENT20191031_000001.XMLSPC_20369029-2e5b-4930-be9a-7d7efc46af5d_3.pdf"]
+                }
+            ],
+            "engineIndexContentAsJson": {
+                "Root": {
+                    "INDEXATION": {
+                        "BASE_GED": "GESTION",
+                        "TYPE_STOCKAGE": "WORM",
+                        "GROUPE_DOCUMENT": "",
+                        "TYPE_RETENTION": "DECENALE",
+                        "TYPE_DOCUMENT": "LETTRE_RELANCE_CLIENT_",
+                        "FAMILLE_DOCUMENT": "QUOTIDIENNE",
+                        "DATE_CREATION": "2019-10-31",
+                        "NOM_FICHIER": "",
+                        "SI_APPELANT": "AIA",
+                        "ID_SYSTEME_APPELANT": "4E6C385178",
+                        "USER_SYSTEME_APPELANT": "BATCH01",
+                        "DATE_REFERENCE": "2099-01-01",
+                        "DATE_DOCUMENT": "2019-07-16",
+                        "SENS": "SORTANT",
+                        "CANAL": "RIO",
+                        "NUM_PERSONNE_CRM": "",
+                        "NUM_PERSONNE_RIO": "T12119629",
+                        "NOM_RAISON": "LE GRAND NUAGE",
+                        "PRENOM_PERSONNE": "",
+                        "DATE_NAISSANCE_PERSONNE": "01/03/1990",
+                        "TYPE_PERSONNE": "MORALE",
+                        "FORME_JURIDIQUE": "SARL",
+                        "SOCIETE": "THELEM ASSURANCES",
+                        "PARTENAIRE": "20608:Agent A1(A1): M. Serge MANNERIE",
+                        "NUM_CONTRAT": "",
+                        "NUM_SINISTRE": "",
+                        "NUM_DEVIS": "",
+                        "NUM_APPORTEUR": "20608",
+                        "NOM_APPORTEUR": "MANNERIE",
+                        "NUM_PRISE_GARANTIES": "",
+                        "RUM": "",
+                        "NUM_AVENANT": "",
+                        "DOMAINE": "PRODUCTION",
+                        "NUM_ENCAISSEMENT": "",
+                        "NUM_DECAISSEMENT": "",
+                        "NUM_PRIME": "",
+                        "DESTINATAIRE": "SARL LE GRAND NUAGE",
+                        "EMETTEUR": "Batch01 BATCH01",
+                        "GESTIONNAIRE": "",
+                        "GARANTIE_SINISTREE": "",
+                        "DEMAT": "",
+                        "ID_GARANTIE_SINISTREE": ""
+                    }
+                }
+            },
+            "documentPageList": [
+                {
+                    "pageIndex": 0,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                },
+                {
+                    "pageIndex": 1,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                }
+            ],
+            "totalNumberOfSheets": 2,
+            "sourceType": "Assembled",
+            "templateName": "RELANCE_CLIENT_2019",
+            "templateVersion": "",
+            "documentBatchIndex": 3,
+            "chunkId": "20369029-2e5b-4930-be9a-7d7efc46af5d",
+            "resourceFormatSizeInBytesMap": {
+                "Pdf": 13651
+            },
+            "mainFormatSizeInBytes": 13651
+        },
+        {
+            "id": "20369029-2e5b-4930-be9a-7d7efc46af5d_4",
+            "creationDate": "2021-11-19T12:17:10.6823842Z",
+            "expirationDate": "2021-11-21T12:17:10.6823842Z",
+            "storageFilePath": "",
+            "creator": "",
+            "description": "",
+            "format": "Pdf",
+            "totalNumberOfPages": 1,
+            "correlationId": "THELEM_SPC_19-11-2021",
+            "jobId": "9a77465c-f206-491d-9346-11f3b9257a67",
+            "intermediateFormatOnly": false,
+            "metaData": [
+                {
+                    "id": "FICHIER_CREE",
+                    "values": ["LETTRE_RELANCE_CLIENT20191031_000001.XMLSPC_20369029-2e5b-4930-be9a-7d7efc46af5d_4.pdf"]
+                }
+            ],
+            "engineIndexContentAsJson": {
+                "Root": {
+                    "INDEXATION": {
+                        "BASE_GED": "GESTION",
+                        "TYPE_STOCKAGE": "WORM",
+                        "GROUPE_DOCUMENT": "",
+                        "TYPE_RETENTION": "DECENALE",
+                        "TYPE_DOCUMENT": "LETTRE_RELANCE_CLIENT_",
+                        "FAMILLE_DOCUMENT": "QUOTIDIENNE",
+                        "DATE_CREATION": "2019-10-31",
+                        "NOM_FICHIER": "",
+                        "SI_APPELANT": "AIA",
+                        "ID_SYSTEME_APPELANT": "4E6C385535",
+                        "USER_SYSTEME_APPELANT": "BATCH01",
+                        "DATE_REFERENCE": "2099-01-01",
+                        "DATE_DOCUMENT": "2019-07-25",
+                        "SENS": "SORTANT",
+                        "CANAL": "RIO",
+                        "NUM_PERSONNE_CRM": "10002820950",
+                        "NUM_PERSONNE_RIO": "T01682007",
+                        "NOM_RAISON": "GOUPIL",
+                        "PRENOM_PERSONNE": "Jacques",
+                        "DATE_NAISSANCE_PERSONNE": "25/08/1963",
+                        "TYPE_PERSONNE": "PHYSIQUE",
+                        "FORME_JURIDIQUE": "",
+                        "SOCIETE": "THELEM ASSURANCES",
+                        "PARTENAIRE": "21542:Agent A1(A1): M. Eric HUBERT",
+                        "NUM_CONTRAT": "",
+                        "NUM_SINISTRE": "",
+                        "NUM_DEVIS": "",
+                        "NUM_APPORTEUR": "21542",
+                        "NOM_APPORTEUR": "HUBERT",
+                        "NUM_PRISE_GARANTIES": "",
+                        "RUM": "",
+                        "NUM_AVENANT": "",
+                        "DOMAINE": "PRODUCTION",
+                        "NUM_ENCAISSEMENT": "",
+                        "NUM_DECAISSEMENT": "",
+                        "NUM_PRIME": "",
+                        "DESTINATAIRE": "M. Jacques GOUPIL",
+                        "EMETTEUR": "Batch01 BATCH01",
+                        "GESTIONNAIRE": "",
+                        "GARANTIE_SINISTREE": "",
+                        "DEMAT": "",
+                        "ID_GARANTIE_SINISTREE": ""
+                    }
+                }
+            },
+            "documentPageList": [
+                {
+                    "pageIndex": 0,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                }
+            ],
+            "totalNumberOfSheets": 1,
+            "sourceType": "Assembled",
+            "templateName": "RELANCE_CLIENT_2019",
+            "templateVersion": "",
+            "documentBatchIndex": 4,
+            "chunkId": "20369029-2e5b-4930-be9a-7d7efc46af5d",
+            "resourceFormatSizeInBytesMap": {
+                "Pdf": 11596
+            },
+            "mainFormatSizeInBytes": 11596
+        },
+        {
+            "id": "20369029-2e5b-4930-be9a-7d7efc46af5d_5",
+            "creationDate": "2021-11-19T12:17:10.6823842Z",
+            "expirationDate": "2021-11-21T12:17:10.6823842Z",
+            "storageFilePath": "",
+            "creator": "",
+            "description": "",
+            "format": "Pdf",
+            "totalNumberOfPages": 2,
+            "correlationId": "THELEM_SPC_19-11-2021",
+            "jobId": "9a77465c-f206-491d-9346-11f3b9257a67",
+            "intermediateFormatOnly": false,
+            "metaData": [
+                {
+                    "id": "FICHIER_CREE",
+                    "values": ["LETTRE_RELANCE_CLIENT20191031_000001.XMLSPC_20369029-2e5b-4930-be9a-7d7efc46af5d_5.pdf"]
+                }
+            ],
+            "engineIndexContentAsJson": {
+                "Root": {
+                    "INDEXATION": {
+                        "BASE_GED": "GESTION",
+                        "TYPE_STOCKAGE": "WORM",
+                        "GROUPE_DOCUMENT": "",
+                        "TYPE_RETENTION": "DECENALE",
+                        "TYPE_DOCUMENT": "LETTRE_RELANCE_CLIENT_",
+                        "FAMILLE_DOCUMENT": "QUOTIDIENNE",
+                        "DATE_CREATION": "2019-10-31",
+                        "NOM_FICHIER": "",
+                        "SI_APPELANT": "AIA",
+                        "ID_SYSTEME_APPELANT": "4E6C385472",
+                        "USER_SYSTEME_APPELANT": "BATCH01",
+                        "DATE_REFERENCE": "2099-01-01",
+                        "DATE_DOCUMENT": "2019-07-25",
+                        "SENS": "SORTANT",
+                        "CANAL": "RIO",
+                        "NUM_PERSONNE_CRM": "",
+                        "NUM_PERSONNE_RIO": "T12119629",
+                        "NOM_RAISON": "LE GRAND NUAGE",
+                        "PRENOM_PERSONNE": "",
+                        "DATE_NAISSANCE_PERSONNE": "01/03/1990",
+                        "TYPE_PERSONNE": "MORALE",
+                        "FORME_JURIDIQUE": "SARL",
+                        "SOCIETE": "THELEM ASSURANCES",
+                        "PARTENAIRE": "20608:Agent A1(A1): M. Serge MANNERIE",
+                        "NUM_CONTRAT": "",
+                        "NUM_SINISTRE": "",
+                        "NUM_DEVIS": "",
+                        "NUM_APPORTEUR": "20608",
+                        "NOM_APPORTEUR": "MANNERIE",
+                        "NUM_PRISE_GARANTIES": "",
+                        "RUM": "",
+                        "NUM_AVENANT": "",
+                        "DOMAINE": "PRODUCTION",
+                        "NUM_ENCAISSEMENT": "",
+                        "NUM_DECAISSEMENT": "",
+                        "NUM_PRIME": "",
+                        "DESTINATAIRE": "SARL LE GRAND NUAGE",
+                        "EMETTEUR": "Batch01 BATCH01",
+                        "GESTIONNAIRE": "",
+                        "GARANTIE_SINISTREE": "",
+                        "DEMAT": "",
+                        "ID_GARANTIE_SINISTREE": ""
+                    }
+                }
+            },
+            "documentPageList": [
+                {
+                    "pageIndex": 0,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                },
+                {
+                    "pageIndex": 1,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                }
+            ],
+            "totalNumberOfSheets": 2,
+            "sourceType": "Assembled",
+            "templateName": "RELANCE_CLIENT_2019",
+            "templateVersion": "",
+            "documentBatchIndex": 5,
+            "chunkId": "20369029-2e5b-4930-be9a-7d7efc46af5d",
+            "resourceFormatSizeInBytesMap": {
+                "Pdf": 13647
+            },
+            "mainFormatSizeInBytes": 13647
+        },
+        {
+            "id": "20369029-2e5b-4930-be9a-7d7efc46af5d_6",
+            "creationDate": "2021-11-19T12:17:10.6823842Z",
+            "expirationDate": "2021-11-21T12:17:10.6823842Z",
+            "storageFilePath": "",
+            "creator": "",
+            "description": "",
+            "format": "Pdf",
+            "totalNumberOfPages": 2,
+            "correlationId": "THELEM_SPC_19-11-2021",
+            "jobId": "9a77465c-f206-491d-9346-11f3b9257a67",
+            "intermediateFormatOnly": false,
+            "metaData": [
+                {
+                    "id": "FICHIER_CREE",
+                    "values": ["LETTRE_RELANCE_CLIENT20191031_000001.XMLSPC_20369029-2e5b-4930-be9a-7d7efc46af5d_6.pdf"]
+                }
+            ],
+            "engineIndexContentAsJson": {
+                "Root": {
+                    "INDEXATION": {
+                        "BASE_GED": "GESTION",
+                        "TYPE_STOCKAGE": "WORM",
+                        "GROUPE_DOCUMENT": "",
+                        "TYPE_RETENTION": "DECENALE",
+                        "TYPE_DOCUMENT": "LETTRE_RELANCE_CLIENT_",
+                        "FAMILLE_DOCUMENT": "QUOTIDIENNE",
+                        "DATE_CREATION": "2019-10-31",
+                        "NOM_FICHIER": "",
+                        "SI_APPELANT": "AIA",
+                        "ID_SYSTEME_APPELANT": "4E6C385468",
+                        "USER_SYSTEME_APPELANT": "BATCH01",
+                        "DATE_REFERENCE": "2099-01-01",
+                        "DATE_DOCUMENT": "2019-07-25",
+                        "SENS": "SORTANT",
+                        "CANAL": "RIO",
+                        "NUM_PERSONNE_CRM": "",
+                        "NUM_PERSONNE_RIO": "T12119628",
+                        "NOM_RAISON": "ATHEME",
+                        "PRENOM_PERSONNE": "Maryse",
+                        "DATE_NAISSANCE_PERSONNE": "01/01/1970",
+                        "TYPE_PERSONNE": "PHYSIQUE",
+                        "FORME_JURIDIQUE": "",
+                        "SOCIETE": "THELEM ASSURANCES",
+                        "PARTENAIRE": "21732:Agent A1(A1):  MR LAFAY JEAN FRANCOIS",
+                        "NUM_CONTRAT": "",
+                        "NUM_SINISTRE": "",
+                        "NUM_DEVIS": "",
+                        "NUM_APPORTEUR": "21732",
+                        "NOM_APPORTEUR": "MR LAFAY JEAN FRANCOIS",
+                        "NUM_PRISE_GARANTIES": "",
+                        "RUM": "",
+                        "NUM_AVENANT": "",
+                        "DOMAINE": "PRODUCTION",
+                        "NUM_ENCAISSEMENT": "",
+                        "NUM_DECAISSEMENT": "",
+                        "NUM_PRIME": "",
+                        "DESTINATAIRE": "Mme Maryse ATHEME",
+                        "EMETTEUR": "Batch01 BATCH01",
+                        "GESTIONNAIRE": "",
+                        "GARANTIE_SINISTREE": "",
+                        "DEMAT": "",
+                        "ID_GARANTIE_SINISTREE": ""
+                    }
+                }
+            },
+            "documentPageList": [
+                {
+                    "pageIndex": 0,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                },
+                {
+                    "pageIndex": 1,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                }
+            ],
+            "totalNumberOfSheets": 2,
+            "sourceType": "Assembled",
+            "templateName": "RELANCE_CLIENT_2019",
+            "templateVersion": "",
+            "documentBatchIndex": 6,
+            "chunkId": "20369029-2e5b-4930-be9a-7d7efc46af5d",
+            "resourceFormatSizeInBytesMap": {
+                "Pdf": 13389
+            },
+            "mainFormatSizeInBytes": 13389
+        },
+        {
+            "id": "20369029-2e5b-4930-be9a-7d7efc46af5d_7",
+            "creationDate": "2021-11-19T12:17:10.6823842Z",
+            "expirationDate": "2021-11-21T12:17:10.6823842Z",
+            "storageFilePath": "",
+            "creator": "",
+            "description": "",
+            "format": "Pdf",
+            "totalNumberOfPages": 2,
+            "correlationId": "THELEM_SPC_19-11-2021",
+            "jobId": "9a77465c-f206-491d-9346-11f3b9257a67",
+            "intermediateFormatOnly": false,
+            "metaData": [
+                {
+                    "id": "FICHIER_CREE",
+                    "values": ["LETTRE_RELANCE_CLIENT20191031_000001.XMLSPC_20369029-2e5b-4930-be9a-7d7efc46af5d_7.pdf"]
+                }
+            ],
+            "engineIndexContentAsJson": {
+                "Root": {
+                    "INDEXATION": {
+                        "BASE_GED": "GESTION",
+                        "TYPE_STOCKAGE": "WORM",
+                        "GROUPE_DOCUMENT": "",
+                        "TYPE_RETENTION": "DECENALE",
+                        "TYPE_DOCUMENT": "LETTRE_RELANCE_CLIENT_",
+                        "FAMILLE_DOCUMENT": "QUOTIDIENNE",
+                        "DATE_CREATION": "2019-10-31",
+                        "NOM_FICHIER": "",
+                        "SI_APPELANT": "AIA",
+                        "ID_SYSTEME_APPELANT": "4E6C385458",
+                        "USER_SYSTEME_APPELANT": "BATCH01",
+                        "DATE_REFERENCE": "2099-01-01",
+                        "DATE_DOCUMENT": "2019-07-25",
+                        "SENS": "SORTANT",
+                        "CANAL": "RIO",
+                        "NUM_PERSONNE_CRM": "",
+                        "NUM_PERSONNE_RIO": "T12119620",
+                        "NOM_RAISON": "ROSE",
+                        "PRENOM_PERSONNE": "Jean",
+                        "DATE_NAISSANCE_PERSONNE": "15/07/1970",
+                        "TYPE_PERSONNE": "PHYSIQUE",
+                        "FORME_JURIDIQUE": "",
+                        "SOCIETE": "THELEM ASSURANCES",
+                        "PARTENAIRE": "21542:Agent A1(A1): M. Eric HUBERT",
+                        "NUM_CONTRAT": "",
+                        "NUM_SINISTRE": "",
+                        "NUM_DEVIS": "",
+                        "NUM_APPORTEUR": "21542",
+                        "NOM_APPORTEUR": "HUBERT",
+                        "NUM_PRISE_GARANTIES": "",
+                        "RUM": "",
+                        "NUM_AVENANT": "",
+                        "DOMAINE": "PRODUCTION",
+                        "NUM_ENCAISSEMENT": "",
+                        "NUM_DECAISSEMENT": "",
+                        "NUM_PRIME": "",
+                        "DESTINATAIRE": "M. Jean ROSE",
+                        "EMETTEUR": "Batch01 BATCH01",
+                        "GESTIONNAIRE": "",
+                        "GARANTIE_SINISTREE": "",
+                        "DEMAT": "",
+                        "ID_GARANTIE_SINISTREE": ""
+                    }
+                }
+            },
+            "documentPageList": [
+                {
+                    "pageIndex": 0,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                },
+                {
+                    "pageIndex": 1,
+                    "plexingMode": "Simplex",
+                    "paperType": 0,
+                    "startNewSheet": false,
+                    "metaData": []
+                }
+            ],
+            "totalNumberOfSheets": 2,
+            "sourceType": "Assembled",
+            "templateName": "RELANCE_CLIENT_2019",
+            "templateVersion": "",
+            "documentBatchIndex": 7,
+            "chunkId": "20369029-2e5b-4930-be9a-7d7efc46af5d",
+            "resourceFormatSizeInBytesMap": {
+                "Pdf": 13490
+            },
+            "mainFormatSizeInBytes": 13490
+        }
+    ],
+    "communications": [],
+    "globalDocuments": []
+}

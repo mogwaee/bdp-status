@@ -14,9 +14,9 @@ app.listen(3000, () => {
 // Notify route
 app.get("/notify", (req, res) => {
     //res.send('Notify Me!');
-    res.status(200).json({ jobId: req.query.jobId });
+    res.status(200).json({ jobId: req.query.jobId, jobBranch: req.query.jobBranch });
 
-    statusRequest.jobStatus(req.query.jobId).then(() => {
-        console.log(nowTime() + " Notification finished.");
+    statusRequest.jobStatus(req.query.jobId, req.query.jobBranch).then(() => {
+        //console.log(nowTime() + " Notification finished.");
     });
 });

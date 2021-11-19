@@ -1,4 +1,4 @@
-GET http://localhost:3000/notify?jobId=e250d073-7215-4dcd-8422-081e3d6fd1b6
+GET http://localhost:3000/notify?jobId=2a683941-6622-4d97-b5ec-c104f0be249e&jobBranch=IF
 Accept: application/json
 
 ###
