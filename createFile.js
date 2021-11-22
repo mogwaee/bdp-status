@@ -11,7 +11,7 @@ function flag(details, jobBranch) {
     let message_erreur = "";
     let filiere = "PRINT";
     if (jobBranch === "SPC") {filiere = "GED";}
-    console.log("filiere" + jobBranch);
+    //console.log("Filiere= " + jobBranch);
 
 
     if (statut === "Completed") {
@@ -43,7 +43,10 @@ function flag(details, jobBranch) {
         `    <FILIERE>${filiere}</FILIERE>\n` +
         "</FLAG>")
 
-    let flagFile = details.job.description + ".flag"
+    let flagPath = process.env.FLAGPATH;
+    let flagFile = flagPath + details.job.description + ".flag"
+
+    console.log("Flag: " + flagFile);
 
     fs.writeFile(flagFile, flagString, err => {
         if (err) {
