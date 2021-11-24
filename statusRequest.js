@@ -30,10 +30,6 @@ async function jobStatus(jobId, jobBranch) {
         createFile.flag(reqDetailsResp, jobBranch);
         console.log(nowTime() + " Notification finished.");
     }, 2000);
-
-
-
-
 }
 
 async function requestStatus(url) {
