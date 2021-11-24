@@ -3,6 +3,8 @@ fs = require('fs');
 function flag(details, jobBranch) {
     console.log("Creating flag");
     //console.log(details);
+    let flagPath ="";
+
 
     let endDate = new Date(details.job.endedDate);
     let statut = details.job.status;
@@ -19,11 +21,13 @@ function flag(details, jobBranch) {
         if (jobBranch === "IF") {
             nb_documents = details.globalDocuments[0].documentCount;
             nb_pages = details.globalDocuments[0].totalNumberOfPages;
+            flagPath = process.env.FLAGPATHIF;
         }
         if (jobBranch === "SPC") {
             for (const element of details.documents){
                 nb_pages += element.totalNumberOfPages;
                 nb_documents += 1;
+                flagPath = process.env.FLAGPATHSPC;
             }
         }
 
@@ -32,6 +36,7 @@ function flag(details, jobBranch) {
         message_erreur = details.job.failedReason;
     }
 
+    let flagFile = flagPath + details.job.description + ".flag"
 
     let flagString = ("<FLAG>\n" +
         `    <DATE>${endDate.toLocaleDateString()}</DATE>\n` +
@@ -43,8 +48,7 @@ function flag(details, jobBranch) {
         `    <FILIERE>${filiere}</FILIERE>\n` +
         "</FLAG>")
 
-    let flagPath = process.env.FLAGPATH;
-    let flagFile = flagPath + details.job.description + ".flag"
+
 
     console.log("Flag: " + flagFile);
 

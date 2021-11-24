@@ -6,7 +6,7 @@ const nowTime = () => {
     return `${d.toLocaleDateString()} ${d.toLocaleTimeString()}`;
 };
 const app = express();
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
     console.log(nowTime() + " Server startup...");
     console.log(nowTime() + " Server ready: listening on port 3000.");
 });
