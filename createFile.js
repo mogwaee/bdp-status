@@ -4,6 +4,12 @@ function flag(details, jobBranch) {
     console.log("Creating flag");
     //console.log(details);
     let flagPath ="";
+    if (jobBranch === "IF") {
+        flagPath = process.env.FLAGPATH_IF;
+    }
+    if (jobBranch === "SPC") {
+        flagPath = process.env.FLAGPATH_SPC;
+    }
 
 
     let endDate = new Date(details.job.endedDate);
@@ -21,13 +27,11 @@ function flag(details, jobBranch) {
         if (jobBranch === "IF") {
             nb_documents = details.globalDocuments[0].documentCount;
             nb_pages = details.globalDocuments[0].totalNumberOfPages;
-            flagPath = process.env.FLAGPATHIF;
         }
         if (jobBranch === "SPC") {
             for (const element of details.documents){
                 nb_pages += element.totalNumberOfPages;
                 nb_documents += 1;
-                flagPath = process.env.FLAGPATHSPC;
             }
         }
 

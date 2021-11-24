@@ -15,6 +15,7 @@ const nowTime = () => {
 async function jobStatus(jobId, jobBranch) {
     let reqStatusResp;
     let reqDetailsResp;
+    // Ajouter un setTimeout ici afin de ne pas boucler trop fréquemment
     do {
         reqStatusResp = await requestStatus(urlBdp + jobId);
         if (!("status" in reqStatusResp)) {
